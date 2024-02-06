@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #000000;
     padding: 0 40px;
     text-align: center;
 }
@@ -47,4 +47,30 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.blogs {
+    margin-top: 10rem;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+
+a {
+    display: inline-block;
+    padding: 20px;
+    color: #EAE8FF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+p {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio {
+    margin: 50px;
 }
